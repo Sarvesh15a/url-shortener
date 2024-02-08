@@ -10,7 +10,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import shortUrl from './routes/route.js';
 
-
+app.use(cors());
 dotenv.config();
 
 const app= express();
